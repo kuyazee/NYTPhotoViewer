@@ -229,8 +229,8 @@ static const UIEdgeInsets NYTPhotosViewControllerCloseButtonImageInsets = {3, 0,
 
     UIColor *textColor = self.view.tintColor ?: [UIColor whiteColor];
     self.overlayView.titleTextAttributes = @{NSForegroundColorAttributeName: textColor,
-                                             NSStrokeWidthAttributeName: 0.1,
-                                             NSStrokeColorAttributeName: [UIColor lightGrayColor]
+                                             NSStrokeWidthAttributeName: @-1,
+                                             NSStrokeColorAttributeName: [UIColor blackColor]
                                              };
 
 
